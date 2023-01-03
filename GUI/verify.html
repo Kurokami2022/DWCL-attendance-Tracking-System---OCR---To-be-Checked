@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+
+    <link rel="stylesheet" href="verify.css" />
+
+  </head>
+  <body>
+    <div id='stars'></div>
+    <div id='stars2'></div>
+    <div id='stars3'></div>
+
+    <container class="full-box">
+    <div class="box">
+      <form autocomplete="off" name="frm" action="" id="formlang">
+        <h2>Email Verification</h2>
+        <br>
+        <label id="email" name="lblemail"></label>
+        <div class="inputBox">
+          <input id="verify" type="text" name="txtverify" required="required">
+          <span id="verispan">Verification Code</span>
+          <i id="i1"></i>
+        </div>
+        <br>
+        <input type="submit" value="Verify" onclick="go(this.form)">
+        <div class="links">
+            <input type="button" value="Change Email" class="change">
+            <input type="button" value="Resend Code" class="rc">
+          </div>
+      </form>
+    </div>
+    </container>
+
+    <script src="verify.js"></script>
+
+  </body>
+</html>

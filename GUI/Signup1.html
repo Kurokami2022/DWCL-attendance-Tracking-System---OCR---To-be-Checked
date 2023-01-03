@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signup</title>
+
+    <link rel="stylesheet" href="Signup1.css" />
+
+  </head>
+  <body>
+    <div id='stars'></div>
+    <div id='stars2'></div>
+    <div id='stars3'></div>
+
+    <container class="full-box">
+    <div class="box">
+      <form autocomplete="off" name="frm" action="" id="form">
+        <h2>Signup</h2><br>
+        <div class="inputBox">
+          <input id="user" type="text" name="txtuser" required="required">
+          <span id="userspan">Username</span>
+          <i id="i1"></i>
+        </div>
+        <i id="error1">Please enter your username</i>
+
+        <div class="inputBox">
+            <input id="email" type="text" name="txtemail" required="required">
+            <span id="emailspan">Email</span>
+            <i id="i2"></i>
+          </div>
+          <i id="error2">Please enter your email</i>
+          
+          <div class="inputBox">
+            <input id="pass" type="password" name="txtpass" required="required">
+            <span id="passpan">Password</span>
+            <i id="i3"></i>
+          </div>
+          <i id="error3">Please enter your password</i>
+  
+          <div class="inputBox">
+              <input id="cpass" type="password" name="txtcpass" required="required">
+              <span id="cpasspan">Confirm Password</span>
+              <i id="i4"></i>
+            </div>
+            <i id="error4">Please confirm your password</i>
+
+          <div class="links">
+            <p class="create">Already have an account?</p>
+            <a href="login.html" class="login">Log in</a>
+          </div>
+
+        <input id="btnsub" type="submit" value="Confirm">
+
+      </form>
+    </div>
+    </container>
+
+    <script src="./Signup1.js"></script>
+
+  </body>
+</html>
